@@ -1,0 +1,21 @@
+{
+	"name": "全网VIP视频解析",
+	"version": "1.0.1",
+	"description": "全网VIP视频免费解析,可以自定义解析接口,只需要在配置中增加即可!",
+	"permissions": ["activeTab", "storage"],
+	"options_page": "options/options.html",
+	"content_security_policy": 
+	" script-src 'self' https://cdn.bootcss.com/vue/2.6.10/vue.min.js; object-src 'self' ;",
+	"browser_action": {
+		"default_popup": "popup/popup.html",
+		"default_icon": {
+			"16": "icon/vip_16.png",
+			"48": "icon/vip_48.png"
+		}
+	},
+	"icons": {
+		"16": "icon/vip_16.png",
+		"48": "icon/vip_48.png"
+	},
+	"manifest_version": 2
+}
